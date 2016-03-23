@@ -40,11 +40,11 @@
                             </ul>
                         </li>
                     @endif
-                    @if(auth()->guard('admins')->check())
+                    @if(admins()->check())
                         <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            {{ auth()->guard('admins')->user()->name }}
+                            {{ admins()->user()->name }}
                             </a>
 
                             <ul class="dropdown-menu" role="menu">

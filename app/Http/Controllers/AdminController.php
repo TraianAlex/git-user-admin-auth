@@ -7,6 +7,7 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
 use App\User;
 use App\Admin;
+use App\Http\Requests\LoginAdminRequest;
 
 class AdminController extends Controller
 {
@@ -21,14 +22,10 @@ class AdminController extends Controller
     	return view('admin.dashboard', compact('authors'));
     }
 
-    public function postLogin(Request $request)
+    public function postLogin(LoginAdminRequest $request)
     {
-    	$this->validate($request, [
-    		'name' => 'required',
-    		'password' => 'required'
-		]);
-        //auth()->guard('admins')->attempt(['email' => '', 'password' => ''])
-    	if(!Auth::guard('admins')->attempt(['name' => $request['name'], 'password' => $request['password']])){
+        //Auth::guard('admins')->//auth()->guard('admins')->(['email' => '', 'password' => ''])
+    	if(!admins()->attempt(['name' => $request['name'], 'password' => $request['password']])){
     		return redirect()->back()->with('fail', 'Could not be log you in!');
     	}
 
@@ -37,7 +34,7 @@ class AdminController extends Controller
 
     public function getLogout()
     {       
-        auth()->guard('admins')->logout();
+        admins()->logout();//auth()->guard('admins')
         return redirect('/');
     }
 }
