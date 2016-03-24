@@ -21,6 +21,9 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Quotes</a></li>
+                    <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                    <li><a href="{{ route('about') }}">About me</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

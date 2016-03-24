@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"admin",
+				"admins〔function〕"
+			],
+			[
 				"Con",
 				"Contracts〔namespace〕"
 			],
@@ -32,34 +48,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
+			"file": "resources/views/other/contact.blade.php",
 			"settings":
 			{
-				"buffer_size": 1462,
+				"buffer_size": 884,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Http/Controllers/AdminController.php",
+			"file": "resources/views/includes/info-box.blade.php",
 			"settings":
 			{
-				"buffer_size": 942,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Admin.php",
-			"settings":
-			{
-				"buffer_size": 211,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/auth.php",
-			"settings":
-			{
-				"buffer_size": 3745,
+				"buffer_size": 371,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,6 +92,28 @@
 	},
 	"file_history":
 	[
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/routes.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/PostController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/header.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/about.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/ContactMessageController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/footer.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/index.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/single.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/layouts/app.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/LoginAdminRequest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/composer.json",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/AdminController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/helpers.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/config/auth.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/vendor/symfony/console/Helper/Helper.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/.gitignore",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Admin.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Middleware/AdminMiddleware.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Kernel.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_21_152103_create_admins_table.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/factories/ModelFactory.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Providers/AuthServiceProvider.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
@@ -100,11 +122,8 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/Auth/AuthController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/quotes.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/User.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/header.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_21_152103_create_admins_table.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/login.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/dashboard.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/database/factories/ModelFactory.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/database/seeds/DatabaseSeeder.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/home.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/QuoteController.php",
@@ -118,7 +137,6 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/app/AuthorLog.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/CreateQuoteRequest.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/.env",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/layouts/app.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_21_121510_create_quote_logs_table.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/QuoteLog.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/assets/css/main2.css",
@@ -201,25 +219,7 @@
 		"/home/victor92/Dropbox/www/laravel/laravel3/database/migrations/2015_11_04_190747_add_users.php",
 		"/home/victor92/Dropbox/www/laravel/laravel4/app/Http/routes.php",
 		"/home/victor92/Public/laravel/laravelx1/config/database.php",
-		"/home/victor92/Public/laravel/laravelx1/database/database.sqlite",
-		"/home/victor92/Public/laravel/laravelx1/.env",
-		"/home/victor92/Public/laravel/laravelx1/resources/views/welcome.blade.php",
-		"/home/victor92/Public/laravel/laravelx1/config/app.php",
-		"/home/victor92/Public/laravel/laravelx1/app/Providers/AppServiceProvider.php",
-		"/home/victor92/Dropbox/diverse/setup/setup_lamp",
-		"/home/victor92/Dropbox/diverse/setup/install-package-control",
-		"/home/victor92/Public/traian-kit4/application/config.ini",
-		"/home/victor92/Public/traian-kit4/config.php",
-		"/home/victor92/Public/traian-kit4/new-pdo/index.php",
-		"/home/victor92/Public/testgit/index.php",
-		"/home/victor92/Public/c1/.htaccess",
-		"/home/victor92/Public/testgit/config.php",
-		"/home/victor92/Public/c1/application/config/config.php",
-		"/home/victor92/Public/c2/application/config/config.php",
-		"/home/victor92/Public/c2/.htaccess",
-		"/home/victor92/Public/mvc/simple_mvc/.htaccess",
-		"/home/victor92/Public/traian-kit4/new-pdo/.htaccess",
-		"/home/victor92/Public/traian-kit4/view/header.php"
+		"/home/victor92/Public/laravel/laravelx1/database/database.sqlite"
 	],
 	"find":
 	{
@@ -261,84 +261,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "resources/views/other/contact.blade.php",
 					"settings":
 					{
-						"buffer_size": 1462,
+						"buffer_size": 884,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1428,
-								1457
+								238,
+								238
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 656.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/AdminController.php",
-					"settings":
-					{
-						"buffer_size": 942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								527,
-								527
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Admin.php",
-					"settings":
-					{
-						"buffer_size": 211,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -347,30 +292,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "config/auth.php",
+					"buffer": 1,
+					"file": "resources/views/includes/info-box.blade.php",
 					"settings":
 					{
-						"buffer_size": 3745,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1547,
-								1547
+								322,
+								322
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -420,6 +363,10 @@
 		"selected_items":
 		[
 			[
+				"helper",
+				"vendor/symfony/console/Helper/Helper.php"
+			],
+			[
 				"authen",
 				"vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php"
 			],
@@ -441,7 +388,7 @@
 		[
 			[
 				"",
-				"/Users/victor/Dropbox/www/laravel/dropbox-laravel.sublime-project"
+				"/Users/victor/Dropbox/www/laravel/laravelx1/laravelx1.sublime-project"
 			],
 			[
 				"dev",
