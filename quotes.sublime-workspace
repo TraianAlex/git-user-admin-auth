@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"categories",
+				"$categoriesIDs〔variable〕"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"category",
+				"category_id"
+			],
+			[
+				"res",
+				"response〔function〕"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"Post",
+				"PostController@getSinglePost"
+			],
+			[
+				"form",
+				"form:inline	inline"
+			],
+			[
+				"has",
+				"hasMany〔function〕"
+			],
+			[
 				"se",
 				"section	Tag"
 			],
@@ -36,10 +72,6 @@
 				"fun	function …"
 			],
 			[
-				"form",
-				"form:inline	inline"
-			],
-			[
 				"php",
 				"phpinfo"
 			]
@@ -47,22 +79,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "resources/views/other/contact.blade.php",
-			"settings":
-			{
-				"buffer_size": 884,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/includes/info-box.blade.php",
-			"settings":
-			{
-				"buffer_size": 371,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -93,27 +109,61 @@
 	"file_history":
 	[
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/routes.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/AdminController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/PostController.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/header.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/about.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/ContactMessageController.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/footer.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/index.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/single.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/CategoryController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/edit_post.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/create_post.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/js/posts.js",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/categories.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/js/categories.js",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/layouts/app.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/layouts/app-admin.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/UpdateCategoryRequest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/index.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/dashboard.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/CreateCategoryRequest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/admin-header.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/single.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/info-box.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/tests/ExampleTest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/index.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/edit_post.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/UpdatePostRequest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/single.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Post.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/footer.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/header.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Admin.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/User.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Category.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/CreatePostRequest.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/css/form.css",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/css/common.css",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/CreatePost.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/css/admin.css",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_161414_create_post_category_table.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/factories/ModelFactory.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/seeds/DatabaseSeeder.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/vendor/fzaninotto/faker/test/test.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_160953_create_posts_table.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_161016_create_categories_table.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_161054_create_contact_messages_table.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/about.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/contact.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/test.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/ContactMessageController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/LoginAdminRequest.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/composer.json",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/AdminController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/helpers.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/config/auth.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/symfony/console/Helper/Helper.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/.gitignore",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/Admin.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Middleware/AdminMiddleware.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Kernel.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_21_152103_create_admins_table.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/database/factories/ModelFactory.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Providers/AuthServiceProvider.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
@@ -121,10 +171,7 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/Auth/AuthController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/quotes.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/User.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/login.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/dashboard.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/database/seeds/DatabaseSeeder.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/home.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/QuoteController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Providers/EventServiceProvider.php",
@@ -188,38 +235,7 @@
 		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Policies/ArticlePolicy.php",
 		"/Users/victor/Dropbox/www/laravel/laravelx1/resources/views/articles/article.blade.php",
 		"/Users/victor/Dropbox/www/laravel/laravel5/app/Http/Controllers/StatusController.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/routes.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/User.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Article.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/Kernel.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/Middleware/ExistMiddleware.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Providers/RouteServiceProvider.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/Controllers/TestController.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/Middleware/MustBeAdmin.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/resources/views/partials/users.blade.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/public/.htaccess",
-		"/Users/victor/Dropbox/www/laravel/laravel1/public/.htaccess",
-		"/Users/victor/Dropbox/www/laravel/laravel52/app/User.php",
-		"/Users/victor/Dropbox/www/laravel/laravel52/app/Http/routes.php",
-		"/Users/victor/Dropbox/www/laravel/dev/app/Providers/RouteServiceProvider.php",
-		"/Users/victor/Dropbox/setup/tinker",
-		"/Users/victor/Dropbox/www/laravel/laravel52/app/Http/Controllers/Auth/AuthController.php",
-		"/Users/victor/Dropbox/www/laravel/laravel52/resources/views/auth/register.blade.php",
-		"/Users/victor/Dropbox/www/laravel/laravel52/config/mail.php",
-		"/Users/victor/Dropbox/www/laravel/laravel52/.env",
-		"/Users/victor/Dropbox/www/laravel/laravel52/storage/logs/laravel.log",
-		"/Users/victor/Dropbox/www/laravel/laravel4/app/Http/Controllers/HomeController.php",
-		"/Users/victor/Dropbox/www/laravel/tst52/app/Http/Controllers/HomeController.php",
-		"/home/victor92/Dropbox/diverse/setup/laravel",
-		"/tmp/fz3temp-1/.env",
-		"/tmp/fz3temp-1/.env.example",
-		"/tmp/fz3temp-1/index.php",
-		"/tmp/fz3temp-1/index 2.php",
-		"/home/victor92/Dropbox/www/laravel/laravel3/database/migrations/2015_11_04_173415_add_users.php",
-		"/home/victor92/Dropbox/www/laravel/laravel3/database/migrations/2015_11_04_190747_add_users.php",
-		"/home/victor92/Dropbox/www/laravel/laravel4/app/Http/routes.php",
-		"/home/victor92/Public/laravel/laravelx1/config/database.php",
-		"/home/victor92/Public/laravel/laravelx1/database/database.sqlite"
+		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/routes.php"
 	],
 	"find":
 	{
@@ -237,6 +253,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"before",
 			"::selection",
 			"access_token",
 			"token",
@@ -261,63 +278,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "resources/views/other/contact.blade.php",
-					"settings":
-					{
-						"buffer_size": 884,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/includes/info-box.blade.php",
-					"settings":
-					{
-						"buffer_size": 371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -363,6 +325,10 @@
 		"selected_items":
 		[
 			[
+				"illuminate/database/eloquent/mode",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
 				"helper",
 				"vendor/symfony/console/Helper/Helper.php"
 			],
@@ -388,7 +354,7 @@
 		[
 			[
 				"",
-				"/Users/victor/Dropbox/www/laravel/laravelx1/laravelx1.sublime-project"
+				"/Users/victor/Dropbox/www/laravel/laravel4/laravel4.sublime-project"
 			],
 			[
 				"dev",
@@ -397,7 +363,7 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,

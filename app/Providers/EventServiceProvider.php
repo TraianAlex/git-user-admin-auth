@@ -20,6 +20,10 @@ class EventServiceProvider extends ServiceProvider
             'App\Listeners\CreateLogEntry',
             'App\Listeners\SendUserNotification'
         ],
+        'App\Events\MessageSent' => [
+            'App\Listeners\SendConfirmation',
+            'App\Listeners\SendNotification'
+        ],
     ];
 
     /**

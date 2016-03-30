@@ -27,3 +27,9 @@ $factory->define(App\Admin::class, function (Faker\Generator $faker) {
         'password' => bcrypt('111111'),
     ];
 });
+
+$factory->define(App\Category::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->word
+    ];
+});

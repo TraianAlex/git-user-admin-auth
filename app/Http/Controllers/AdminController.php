@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Auth;
 use App\User;
 use App\Admin;
 use App\Http\Requests\LoginAdminRequest;
+use App\Post;
+use App\ContactMessage;
 
 class AdminController extends Controller
 {
@@ -18,8 +20,10 @@ class AdminController extends Controller
 
     public function getDashboard()
     {
-    	$authors = User::all();
-    	return view('admin.dashboard', compact('authors'));
+        $authors = User::all();
+        $posts = Post::orderBy('created_at', 'desc')->take(3)->get();
+    	$contact_messages = ContactMessage::orderBy('created_at', 'desc')->take(3)->get();
+    	return view('admin.dashboard', compact('authors', 'posts', 'contact_messages'));
     }
 
     public function postLogin(LoginAdminRequest $request)
