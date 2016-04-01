@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"message",
+				"$message_id〔variable〕"
+			],
+			[
+				"contact",
+				"contact_messages"
+			],
+			[
+				"Conat",
+				"ContactMessage〔namespace〕"
+			],
+			[
+				"Con",
+				"ContactMessage〔class〕"
+			],
+			[
 				"categories",
 				"$categoriesIDs〔variable〕"
 			],
@@ -56,10 +72,6 @@
 				"admins〔function〕"
 			],
 			[
-				"Con",
-				"Contracts〔namespace〕"
-			],
-			[
 				"end",
 				"endif"
 			],
@@ -79,6 +91,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/victor/Dropbox/setup/git2",
+			"settings":
+			{
+				"buffer_size": 1076,
+				"line_ending": "Unix",
+				"name": "git log //see all commits"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 3994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/PostController.php",
+			"settings":
+			{
+				"buffer_size": 3598,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -109,7 +146,20 @@
 	"file_history":
 	[
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/routes.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/ContactMessageController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/contact_messages.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/public/blog/js/contact-messages.js",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/dashboard.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/AdminController.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/admin-header.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Providers/EventServiceProvider.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Events/MessageSent.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Listeners/SendConfirmation.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Listeners/SendNotification.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/email/contact-message-confirmation.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/email/contact-message-notification.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/contact.blade.php",
+		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/SendMessageRequest.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/PostController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/CategoryController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/edit_post.blade.php",
@@ -121,9 +171,7 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/layouts/app-admin.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/UpdateCategoryRequest.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/index.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/dashboard.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/CreateCategoryRequest.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/admin-header.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/single.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/includes/info-box.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/tests/ExampleTest.php",
@@ -151,9 +199,7 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_161016_create_categories_table.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/database/migrations/2016_03_24_161054_create_contact_messages_table.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/about.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/other/contact.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/blog/test.blade.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/ContactMessageController.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Requests/LoginAdminRequest.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/composer.json",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/helpers.php",
@@ -174,7 +220,6 @@
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/admin/login.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/home.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Http/Controllers/QuoteController.php",
-		"/Users/victor/Dropbox/www/laravel/quotes/app/Providers/EventServiceProvider.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/email/user_notification.blade.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/app/Events/QuoteCreated.php",
 		"/Users/victor/Dropbox/www/laravel/quotes/resources/views/email/callback.blade.php",
@@ -227,15 +272,7 @@
 		"/Users/victor/Dropbox/www/laravel/laravel1/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/Users/victor/Dropbox/www/laravel/laravel1/app/Exceptions/Handler.php",
 		"/Users/victor/Dropbox/www/laravel/laravel1/config/auth.php",
-		"/Users/victor/Dropbox/www/laravel/laravel1/config/app.php",
-		"/Users/victor/Dropbox/www/laravel/laravel1/composer.json",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/Controllers/ArticleController.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Providers/AuthServiceProvider.php",
-		"/Users/victor/Dropbox/www/laravel/laravel3/app/Http/Controllers/UsersController.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Policies/ArticlePolicy.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/resources/views/articles/article.blade.php",
-		"/Users/victor/Dropbox/www/laravel/laravel5/app/Http/Controllers/StatusController.php",
-		"/Users/victor/Dropbox/www/laravel/laravelx1/app/Http/routes.php"
+		"/Users/victor/Dropbox/www/laravel/laravel1/config/app.php"
 	],
 	"find":
 	{
@@ -278,8 +315,93 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/victor/Dropbox/setup/git2",
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1076
+							]
+						],
+						"settings":
+						{
+							"auto_name": "git log //see all commits",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 3994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/PostController.php",
+					"settings":
+					{
+						"buffer_size": 3598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1431,
+								1431
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2046.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
