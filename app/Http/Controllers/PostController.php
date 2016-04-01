@@ -52,12 +52,7 @@ class PostController extends Controller
     	$blog->title = $request->title;
     	$blog->body = $request->body;
     	auth()->user()->posts()->save($blog);
-        if(strlen($request->categories) > 0){
-            $categoriesIDs = explode(',', $request->categories);
-            foreach ($categoriesIDs as $categoryID) {
-                $blog->categories()->attach($categoryID);
-            }
-        }
+        $this->addCategories($blog, $request);
 
         return redirect()->route('blog.index')->with(['success' => 'Post succsessfully created!']);
     }
@@ -87,12 +82,7 @@ class PostController extends Controller
         $post->body = $request->body;
         $post->update();
         $post->categories()->detach();
-        if(strlen($request->categories) > 0){
-            $categoriesIDs = explode(',', $request->categories);
-            foreach ($categoriesIDs as $categoryID) {
-                $post->categories()->attach($categoryID);
-            }
-        }
+        $this->addCategories($post, $request);
         return redirect()->route('admin.blog.index')->with(['success' => 'Post succsessfully updated']);
     }
 
@@ -115,5 +105,15 @@ class PostController extends Controller
             $text = substr($text, 0, $pos[$words_count]).'...';
         }
         return $text;
+    }
+
+    private function addCategories($post, $request)
+    {
+        if(strlen($request->categories) > 0){
+            $categoriesIDs = explode(',', $request->categories);
+            foreach ($categoriesIDs as $categoryID) {
+                $post->categories()->attach($categoryID);
+            }
+        }
     }
 }
