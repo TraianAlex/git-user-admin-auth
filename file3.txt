@@ -1,0 +1,2 @@
+file2 added in master and in branch admin is file2
+those two branches are not merged
